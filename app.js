@@ -68,9 +68,10 @@ const sessionOptions = {
 }
 
 // Root server
-// app.get("/", (req, res) => {
-//     res.send("root server");
-// })
+app.get("/", (req, res) => {
+    res.redirect("/listings");
+});
+
 
 
 
